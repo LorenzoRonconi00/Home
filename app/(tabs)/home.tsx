@@ -1,10 +1,22 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import { Link } from 'expo-router'
 
 const Page = () => {
   return (
     <View>
-      <Text>Page</Text>
+      <Link href={"/(modals)/login"}>
+        Login
+      </Link>
+      <Link href={"/(modals)/aggiungiTurni"}>
+        Aggiungi Turno
+      </Link>
+      <Link href={"/(modals)/aggiungiSpesa"}>
+        Aggiungi Spesa
+      </Link>
+      <Link href={"/listing/1337"}>
+        Dettaglio turno
+      </Link>
     </View>
   )
 }
