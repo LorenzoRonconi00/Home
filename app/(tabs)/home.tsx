@@ -6,16 +6,13 @@ const Page = () => {
   return (
     <View>
       <Link href={"/(modals)/login"}>
-        Login
+        Accedi
       </Link>
-      <Link href={"/(modals)/aggiungiTurni"}>
-        Aggiungi Turno
+      <Link href={"/(modals)/calendario"}>
+        Calendario
       </Link>
-      <Link href={"/(modals)/aggiungiSpesa"}>
-        Aggiungi Spesa
-      </Link>
-      <Link href={"/listing/1337"}>
-        Dettaglio turno
+      <Link href={"/bilancipreview/1337"}>
+        Dettaglio bilancio
       </Link>
     </View>
   )

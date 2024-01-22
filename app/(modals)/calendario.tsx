@@ -4,7 +4,7 @@ import React from 'react'
 const Page = () => {
   return (
     <View>
-      <Text>Aggiungi Turni</Text>
+      <Text>Calendario</Text>
     </View>
   )
 }
